@@ -127,7 +127,7 @@ a.active {
 }
 #topimg {
 	float:left;
-	width:358px;
+	width:460px;
 	height:60px;
 	padding:4px 0;
 	overflow:hidden;
@@ -153,7 +153,7 @@ a.active {
 	line-height:21px;
 	height:20px;
 	font-weight:normal;
-	width:39px;
+	width:50px;
 	clear:both
 }
 .lg_input {
