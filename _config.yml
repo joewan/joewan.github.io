@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Joewan(Game Engine Programmer)
+title:            Joewan
 tagline:          'Beyond'
-description:      'GAME DEV'
+description:      'GAME DEV | Game Engine Programmer'
 url:              http://joewan.github.io
 baseurl:          /
 
