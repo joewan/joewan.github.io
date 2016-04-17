@@ -8,14 +8,14 @@ relative_permalinks: false
 
 # Setup
 title:            Joewan
-tagline:          'A Jekyll theme'
+tagline:          'Senior Game Engineer'
 description:      'GAME DEV'
 url:              http://joewan.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'joewan'
+  url:            http://www.weibo.com/joewan
 
 paginate:         5
 
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/joewan
