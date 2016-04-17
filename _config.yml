@@ -14,8 +14,8 @@ url:              http://joewan.github.io
 baseurl:          /
 
 author:
-  name:           'joewan'
-  url:            http://www.weibo.com/joewan
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
 paginate:         5
 
