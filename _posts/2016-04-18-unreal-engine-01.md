@@ -14,7 +14,7 @@ title: Unreal Engine 4 代码分析一
 + Binaries
 + Build
 + Config
-+ Documentation 理解Unreal的重点，打蛇打七寸，Unreal文档就是我们的利器。Unreal中的UnrealBuildSystem文档需要相当关注，对细分和理解Unreal的依赖管理有启发意义。
++ Documentation 阅读文档是理解Unreal的重要途径。需要相当关注UnrealBuildSystem文档，对细分和理解Unreal依赖管理有启发意义。
 + Extras
 + Plugins
 + Programs
