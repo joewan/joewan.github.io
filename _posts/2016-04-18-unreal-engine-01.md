@@ -57,10 +57,10 @@ Runtime中最核心的就当属Core了，Core是我们熟悉、掌握Unreal的�
 OpenGLDrv模块依赖的模块：Core、CoreUObject、Engine、RHI、enderCore、ShaderCore以及UtilityShaders，模块内部私有包含ImageWrapper。
 
 
-	FOpenGLDynamicRHIModule
+	FOpenGLDynamicRHIModule：
 	class FOpenGLDynamicRHIModule : public IDynamicRHIModule
 	
-	FOpenGLDynamicRHIModule与OpenGLDrv进行关联，后续可以通过字符串“OpenGLDrv”来创建和访问该模块。
+	FOpenGLDynamicRHIModule与OpenGLDrv进行关联，后续可以通过字符串“OpenGLDrv”来创建和访问该模块：
 	IMPLEMENT_MODULE(FOpenGLDynamicRHIModule, OpenGLDrv);
 	
 	FOpenGLDynamicRHIModule使用：
