@@ -29,3 +29,7 @@ OpenGLDrv的主要头文件：
 + OpenGLResource.h
 + OpenGLShaderResource.h
 + OpenGL3.h OpenGL4.h OpenGLES2.h OpenGL31.h
+
+FOpenGLDynamicRHI函数：
+
++ FOpenGLDynamicRHI::Init()：OpenGLDevice.cpp

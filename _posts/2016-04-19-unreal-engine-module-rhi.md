@@ -14,6 +14,6 @@ RHI模块包含：
 
 RHI的接口：
 
-+ IRHICommandContext
++ IRHICommandContext：DynamicRHI.h
 + FDynamicRHI
 + IDynamicRHIModule
