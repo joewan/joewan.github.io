@@ -30,7 +30,8 @@ Runtime中最核心的就当属Core了，Core是我们熟悉、掌握Unreal的�
 
 每个功能模块目录下面一般都包含Private和Public2个目录，这给各个模块提供了适当的可见性、透明性。
 
-阅读Unreal源码主要是想了解先进商业引擎的方方面面，对游戏引擎有更全面的了解。正好借这个契机，了解计算机图形学渲染实现。Unreal的渲染实现是Renderer模块，Renderer依赖RenderCore模块、ShaderCore模块、UtilityShaders模块以及RHI模块，RHI是提供了显卡硬件驱动的抽象接口，显卡驱动包括OpenGL实现（OpenGLDrv、OpenGLES）、DirectX实现（DX11RHI、DX12RHI）。
+阅读Unreal源码主要是想了解先进商业引擎的方方面面，对游戏引擎有更全面的了解。正好借这个契机，了解计算机图形学渲染实现。Unreal的渲染实现是Renderer模块，Renderer依赖RenderCore模块、ShaderCore模块、UtilityShaders模块以及RHI模块，RHI是提供了显卡硬件驱动的抽象接口，显卡驱动包括OpenGL实现（OpenGLDrv、OpenGLES）、DirectX实现（DX11RHI、DX12RHI）。Renderer模块以RHI为基础实现了各种高级效果，例如大气、雾、全局光照、贴花渲染、阴影、环境反射、Deferred Shading等。
+
 
 熟悉系统之前熟悉系统的接口定义。
 
