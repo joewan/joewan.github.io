@@ -1,3 +1,8 @@
+---
+layout: post
+title: Unreal Engine 4 代码分析——OpenGLDrv模块
+---
+
 OpenGLDrv实质上是基于OpenGL的DynamicRHIModule。
 OpenGLDrv.h里面，头文件包含顺序：从底层逐渐到上层，最后是包含本模块的头文件。
 
@@ -23,4 +28,4 @@ OpenGLDrv的主要头文件：
 + OpenGLUtil.h
 + OpenGLResource.h
 + OpenGLShaderResource.h
-+ OpenGL3.h OpenGL4.h OpenGLES2.h OpenGL31.h：
++ OpenGL3.h OpenGL4.h OpenGLES2.h OpenGL31.h
