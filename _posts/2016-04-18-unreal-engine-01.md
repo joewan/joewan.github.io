@@ -39,3 +39,27 @@ Runtime中最核心的就当属Core了，Core是我们熟悉、掌握Unreal的�
 + FDynamicRHI 通过在源码中搜索“public FDynamicRHI”，发现6处DynamicRHI实现：FEmptyDynamicRHI、FMetalDynamicRHI FD3D12DynamicRHI、FD3D11DynamicRHI、FOpenGLDynamicRHI FNullDynamicRHI。问题来了：FEmptyDynamicRHI与FNullDynamicRHI什么区别呢？实质上NullDrv是一种IDynamicRHIModule的实现。
 + IRHICommandContext
 
+### RHI(Render Hardware Interface)
+
+
+计划从OpenGLDrv模块以及其基于OpenGLES的FOpenGLDynamicRHI来熟悉Unreal的渲染流程，熟悉商业引擎移动平台的渲染实现。
+
+首先是DynamicRHI的跨平台创建，使用DynamicRHI的平台需要先实现PlatformCreateDynamicRHI接口：
+
+	DynamicRHI.h
+	/**
+	 *	Each platform that utilizes dynamic RHIs should implement this function
+	 *	Called to create the instance of the dynamic RHI.
+	 */
+	FDynamicRHI* PlatformCreateDynamicRHI();
+	
+
+OpenGLDrv模块依赖的模块：Core、CoreUObject、Engine、RHI、enderCore、ShaderCore以及UtilityShaders，模块内部私有包含ImageWrapper。
+
+
+	OpenGLDynamicRHIModule
+	class FOpenGLDynamicRHIModule : public IDynamicRHIModule
+	
+	OpenGLDynamicRHIModule使用：
+	IDynamicRHIModule* DynamicRHIModule = &FModuleManager::LoadModuleChecked<IDynamicRHIModule>(TEXT("OpenGLDrv"));
+
