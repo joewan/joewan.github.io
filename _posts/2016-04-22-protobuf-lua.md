@@ -40,8 +40,8 @@ protoc-gen-lua包含2个重要接口：
 
 ### pbc
 
-[pbc](https://github.com/cloudwu/pbc)
-这货是干啥用的？
+这货是干啥用的？[pbc](https://github.com/cloudwu/pbc)
+
 PBC is a google protocol buffers library for C without code generation.
 
 	struct pbc_rmessage * m = pbc_rmessage_new(env, "tutorial.Person", slice);
