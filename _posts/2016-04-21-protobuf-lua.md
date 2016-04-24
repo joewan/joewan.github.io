@@ -38,6 +38,19 @@ protoc-gen-lua包含2个重要接口：
 	
 目前项目中采用的C++解析protobuf消息，目前只需要在解析的地方进行HOOK和拦截即可，为了兼容现有的系统，消息同时在C++和LUA中进行接管。帧同步或战斗相关的服务器消息，需要在LUA中过滤掉，尽可能减少无用解析带来的消耗。
 
+### protoc-gen-lua
+
+WTF! 安装和配置protoc-gen-lua相当操蛋，花了我40分钟。
+遇到endian.h文件在mac上找不到，采用xcode-select --install去安装xcode command tools，竟然失败了。去苹果官网下载相应的安装文件才行。
+
+下面是编译pb.c文件需要用的编译选项：
+
+	CFLAGS=-I/usr/local/include
+	-I/usr/include
+	-std=gnu99
+	-D_ALLBSD_SOURCE
+	LDFLAGS=-L/usr/local/lib -llua
+
 ### pbc
 
 这货是干啥用的？[pbc](https://github.com/cloudwu/pbc)
