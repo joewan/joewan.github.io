@@ -41,7 +41,7 @@ protoc-gen-lua包含2个重要接口：
 ### protoc-gen-lua安装
 
 WTF! 安装和配置protoc-gen-lua相当操蛋，花了我40分钟。
-遇到endian.h文件在mac上找不到，采用xcode-select --install去安装xcode command tools，竟然失败了。去苹果官网下载相应的安装文件才行。
+遇到endian.h文件在mac上找不到的错误，采用xcode-select --install安装xcode command tools，结果竟然失败了。最后不得不去苹果官网下载安装文件才好。
 
 下面是编译pb.c文件需要用的编译选项：
 
@@ -81,6 +81,13 @@ WTF! 安装和配置protoc-gen-lua相当操蛋，花了我40分钟。
 	python 
 	>>>import google.protobuf 
 	如果没有报错，说明安装正常。
+	
+回顾一下为啥安装protoc-gen-lua so麻烦？
+
+概念多，容易混淆，对新人不友好。例如protoc-gen-lua、pbc、protoc、protobuf等。
+protoc是protobuf用于根据*.proto文件生成不同语言格式协议的工具。protoc XXX_out=./ person.proto，就是生成XXX语言的protobuf的协议文件，它会依赖protoc-gen-XXX。为了生成lua格式的protobuf协议，就需要protoc-gen-lua，所以需要建立1个软连接指向protoc-gen-lua/plugin/protoc-gen-lua。protoc-gen-lua需要依赖python版本的protobuf，首先就需要编译安装protoc，紧接着需要安装protobuf的python模块，这样protoc-gen-lua就能使用了，命令如下：
+
+	protoc lua_out=./ person.proto
 
 ### pbc
 
