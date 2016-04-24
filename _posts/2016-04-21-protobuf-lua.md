@@ -38,7 +38,7 @@ protoc-gen-lua包含2个重要接口：
 	
 目前项目中采用的C++解析protobuf消息，目前只需要在解析的地方进行HOOK和拦截即可，为了兼容现有的系统，消息同时在C++和LUA中进行接管。帧同步或战斗相关的服务器消息，需要在LUA中过滤掉，尽可能减少无用解析带来的消耗。
 
-### protoc-gen-lua
+### protoc-gen-lua安装
 
 WTF! 安装和配置protoc-gen-lua相当操蛋，花了我40分钟。
 遇到endian.h文件在mac上找不到，采用xcode-select --install去安装xcode command tools，竟然失败了。去苹果官网下载相应的安装文件才行。
@@ -50,6 +50,37 @@ WTF! 安装和配置protoc-gen-lua相当操蛋，花了我40分钟。
 	-std=gnu99
 	-D_ALLBSD_SOURCE
 	LDFLAGS=-L/usr/local/lib -llua
+
+
+### python版本protobuf安装
+
+1.下载protobuf 2.6.1
+
+2.解压，编译，安装
+
+	$tar zxvf protobuf-2.5.0.tar.gz
+	$cd protobuf-2.6.1 
+	$./configure 
+	$make 
+	$make check 
+	$make install
+
+3.安装protobuf的python模块
+
+	$cd ./python 
+	$python setup.py build 
+	$python setup.py test 
+	$python setup.py install
+
+4.安装完成，验证Linux命令 
+
+	protoc –version
+
+5.验证Python模块是否被正确安装 
+
+	python 
+	>>>import google.protobuf 
+	如果没有报错，说明安装正常。
 
 ### pbc
 
