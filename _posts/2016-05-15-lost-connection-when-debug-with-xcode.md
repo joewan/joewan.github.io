@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 捉虫记——Lost connection when debug with xcode 
+title: 捉虫记——Lost connection when debug with xcode
 ---
 
 苦逼的程序员总被一个个bug这折磨的死去活来。项目很快就要上付费公测了，依然没有找到这个问题的症结所在，记录一下解决这个问题的心路历程。
@@ -21,4 +21,3 @@ title: 捉虫记——Lost connection when debug with xcode
 + 1.用instruments观察游戏内存分配申请；
 + 2.接管游戏的所有内存分配和释放（重载全局new）；
 + 3.模拟闪退，实现测试程序，单次在堆上分配小内存10万次；
-+ 4.同事
