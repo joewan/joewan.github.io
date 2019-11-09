@@ -1,14 +1,10 @@
 # Jekyll configuration
 
-name: Xixia
-description: Welcome to Xixia！
+name: 桃花岛东邪
+description: 欢迎来到桃花岛！
 
-# Setup
-title:            '桃花岛东邪' 
-tagline:          'Cocos Creator, 开发者'
-description:      '归去来兮，田园将芜胡不归？'
-url:              http://cocoscloud.com
-baseurl:          /
+# url is currently only used only for the RSS feed in feed.xml
+url: https://cocoscloud.com
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
