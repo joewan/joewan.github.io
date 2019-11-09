@@ -1,0 +1,42 @@
+- type: "编程"
+  softs:
+    - title: "Visual Studio Code"
+      url: "https://code.visualstudio.com/"
+      free_type: 免费
+      description: "微软出品，功能强大的编辑利器"
+      os: "Windows"
+    - title: "TextAnalysisTool.NET"
+      url: "http://textanalysistool.github.io/"
+      free_type: 免费
+      description: "功能强大的Log分析工具，支持高亮，筛选"
+      os: "Windows"
+- type: "图像处理"
+  softs:  
+    - title: "PixBuilder Studio"
+      url: "https://www.wnsoft.com/en/pixbuilder/"
+      free_type: 免费
+      description: "体积小巧的类PS图像处理工具"
+      os: "Windows"
+- type: "影音工具"
+  softs:  
+    - title: "MPC-HC"
+      url: "https://mpc-hc.org/"
+      free_type: 免费
+      description: "体积小巧的影音播放工具"
+      os: "Windows"
+- type: "文件处理"
+  softs:  
+    - title: "Total Commander"
+      url: "http://www.ghisler.com/"
+      free_type: 共享
+      description: "强大的Windows文件管理神器"
+      os: "Windows"
+- type: "其他"
+  softs:  
+    - title: "KeePass"
+      url: "https://keepass.info/"
+      free_type: 免费
+      description: "体积小巧的密码管理工具"
+      os: "Windows"
+  
+  
