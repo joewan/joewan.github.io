@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ThinkPHP学习"
-categories: ThinkPHP日记
+categories: ThinkPHP
 tags: ThinkPHP
 author: 东邪
 description: 整理记录一下ThinkPHP学习记录

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "常用软件整理"
-categories: Soft
+categories: Jekyll
 tags: Nav
 author: 西夏
 description: 收集整理的工作生活中，常用的好软件。
