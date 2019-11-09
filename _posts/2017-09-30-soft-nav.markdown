@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "常用软件整理"
+categories: Soft
+tags: Nav
+author: 西夏
+description: 收集整理的工作生活中，常用的好软件。
+---
+
+将工作，生活中经常用到的，好用的工具软件整理在这里，方便你我他！
+
+---
+
+<table border="1" class="text-center">
+  <tr bgcolor="#eaecf0">
+    <th width="50px" class="text-center">序号</th>
+    <th width="85px" class="text-center">类型</th>
+    <th width="150px" class="text-center">名字</th>
+    <th width="65px" class="text-center">收费</th>
+    <th width="95px" class="text-center">系统</th>
+    <th width="250px" class="text-center">说明</th>
+    <th width="80px" class="text-center">下载地址</th>
+  </tr>
+  
+{% assign col_type = '' %}
+{% assign index = 1 %}  
+{% assign row_count = 0 %}  
+{% for soft in site.data.nav.soft %}
+{% for _soft in soft.softs %}
+    {% if col_type != soft.type and col_type != '' %}
+      <tr height="5px" bgcolor="#eaecf0"><td colspan="7"></td></tr>
+    {% endif %}
+    {% if col_type != soft.type or col_type == '' %}
+      {% for _soft in soft.softs %}
+        {% assign row_count = row_count | plus: '1' %}
+      {% endfor %}
+    {% endif %}
+    {% assign col_type = soft.type %}
+    <tr height="70px">
+        <td>{{ index }}</td>
+        {% if row_count > 0 %}
+          <td rowspan="{{ row_count }}">{{ soft.type }}</td>
+          {% assign row_count = 0 %} 
+        {% endif %}
+        <td><strong>{{ _soft.title }}</strong></td>
+        <td>{{ _soft.free_type }}</td>
+        <td>{{ _soft.os }}</td>
+        <td>{{ _soft.description }}</td>
+        <td><a href= "{{ _soft.url }}" target="_blank">地址</a></td>
+    </tr>
+    {% assign index = index | plus: '1' %}
+{% endfor %}
+{% endfor %}  
+</table>
+
+<br/>
