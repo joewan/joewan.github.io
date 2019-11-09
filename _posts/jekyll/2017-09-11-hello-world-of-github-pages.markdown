@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World of Github Pages！"
-categories: Programmer
+categories: Jekyll
 tags: GitHub
 author: 西夏
 description: Github Pages入门之Hello World！

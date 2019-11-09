@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "更改Bootstrap导航栏颜色"
-categories: Programmer
+categories: Jekyll
 tags: Bootstrap
 author: 西夏
 description: 新增自定义CSS样式，然后修改导航栏，引用该样式。

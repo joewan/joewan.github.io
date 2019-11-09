@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "将footer固定到页面底部"
-categories: Programmer
+categories: Jekyll
 tags: Html
 author: 西夏
 description: 将footer固定到页面底部，页面撑不满屏幕时，固定到屏幕底部。

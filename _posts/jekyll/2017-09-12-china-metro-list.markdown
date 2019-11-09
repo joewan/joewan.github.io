@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "中国城市地铁信息汇总"
-categories: Favorite
+categories: Jekyll
 tags: Metro
 author: 西夏
 description: 中国所有已开通地铁的城市信息汇总。

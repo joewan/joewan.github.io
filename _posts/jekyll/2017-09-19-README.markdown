@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Read Me"
-categories: Other
+categories: Jekyll
 tags: Other
 author: Xixia
 description: The read me page of jekyll-xixia.

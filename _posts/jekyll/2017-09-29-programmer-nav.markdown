@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "程序猿网址导航"
-categories: Programmer
+categories: Jekyll
 tags: Nav
 author: 西夏
 description: 收集整理的常用程序猿站点。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "如何获取漂亮的ASCII图片和ASCII文本"
-categories: Programmer
+categories: Jekyll
 tags: Other
 author: 西夏
 description: 两个网站，一个帮你生成ASCII文本，一个替你收藏了许多ASCII图片。

@@ -1,7 +1,7 @@
 ---
 layout: movie
 title:  "是枝裕和导演电影四部"
-categories: Movie
+categories: Jekyll
 tags: Movie
 author: 西夏
 description: 四部是枝裕和导演的电影，四部很暖心的电影。

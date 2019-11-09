@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Markdown语法笔记"
-categories: Programmer
-tags: Markdown
+categories: Jekyll
+tags: Jekyll
 author: 西夏
 description: 常用Markdown语法整理。
 ---

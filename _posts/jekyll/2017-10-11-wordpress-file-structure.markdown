@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WordPress文件结构与数据库结构笔记"
-categories: Programmer
+categories: Jekyll
 tags: WordPress
 author: 西夏
 description: WordPress学习笔记一，WordPress文件目录结构与数据库结构说明。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "免费建站程序搜藏"
-categories: Programmer
+categories: Jekyll
 tags: Nav
 author: 西夏
 description: 收集整理的免费建站程序，包括BBS、CMS、WiKi等各种类型建站系统。

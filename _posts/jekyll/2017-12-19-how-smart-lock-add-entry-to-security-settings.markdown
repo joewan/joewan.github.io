@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Smart Lock是如何添加到Settings的"
-categories: Programmer
+categories: Jekyll
 tags: Android
 author: 西夏
 description: 整理记录一下Smart Lock是如何动态添加到Security Category下面的。

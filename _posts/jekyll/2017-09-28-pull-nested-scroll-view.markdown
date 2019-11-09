@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PullNestedScrollView"
-categories: Programmer
+categories: Jekyll
 tags: Android
 author: 西夏
 description: 一个支持Nested Scroll的Pull Down View。
