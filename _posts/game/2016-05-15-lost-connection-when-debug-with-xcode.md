@@ -1,6 +1,10 @@
 ---
 layout: post
 title: 捉虫记——Lost connection when debug with xcode
+categories: Game
+tags: Game
+author: 东邪
+description: unreal engine 学习
 ---
 
 苦逼的程序员总被一个个bug这折磨的死去活来。项目很快就要上付费公测了，依然没有找到这个问题的症结所在，记录一下解决这个问题的心路历程。
