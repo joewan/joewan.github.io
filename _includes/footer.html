@@ -1,7 +1,10 @@
 {% assign trans = site.data.values[site.lan] %}
 <div class="footer">
     <p>{{ site.beian }} {{ site.company }} </p>
-    <p>{{ site.name }}&copy;{{site.start_time}} - {{ site.time | date: '%Y' }}</p>
+    <p>
+        {{ site.name }}&copy;{{site.start_time}} - {{ site.time | date: '%Y' }}
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278192500'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s9.cnzz.com/z_stat.php%3Fid%3D1278192500%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+    </p>
     <!--
     <p>{{ trans.thanks }}
             {% for thank in site.data.thanks %}
