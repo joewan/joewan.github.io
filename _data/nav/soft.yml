@@ -11,21 +11,21 @@
       description: "功能强大的Log分析工具，支持高亮，筛选"
       os: "Windows"
 - type: "图像处理"
-  softs:  
+  softs:
     - title: "PixBuilder Studio"
       url: "https://www.wnsoft.com/en/pixbuilder/"
       free_type: 免费
       description: "体积小巧的类PS图像处理工具"
       os: "Windows"
 - type: "影音工具"
-  softs:  
+  softs:
     - title: "MPC-HC"
       url: "https://mpc-hc.org/"
       free_type: 免费
       description: "体积小巧的影音播放工具"
       os: "Windows"
 - type: "文件处理"
-  softs:  
+  softs:
     - title: "Total Commander"
       url: "http://www.ghisler.com/"
       free_type: 共享
@@ -39,7 +39,7 @@
       description: "markdown文件编辑器"
       os: "Mac"
 - type: "其他"
-  softs:  
+  softs:
     - title: "KeePass"
       url: "https://keepass.info/"
       free_type: 免费
