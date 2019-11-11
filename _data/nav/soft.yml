@@ -31,6 +31,13 @@
       free_type: 共享
       description: "强大的Windows文件管理神器"
       os: "Windows"
+- type: "文件处理"
+  softs:
+    - title: "MarkText"
+      url: "http://electronjs.org/apps/marktext"
+      free_type: 共享
+      description: "markdown文件编辑器"
+      os: "Mac"
 - type: "其他"
   softs:  
     - title: "KeePass"
