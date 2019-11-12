@@ -1,6 +1,6 @@
 ---
 layout: post
-title: golang学习(golangchina.com)
+title: golang学习
 categories: golang
 tags: golang
 author: 东邪
@@ -18,3 +18,4 @@ func testFunc(args ...string) {
 	}
 }
 {% endhighlight %}
+testFunc函数可以接受任意数量的string参数。
