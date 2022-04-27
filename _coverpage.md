@@ -25,13 +25,12 @@
 
 <br>
 
-[GitHub](https://github.com/wugenqiang/NoteBook)
-[开始阅读](/README.md)
+[OpenSea](https://opensea.io)
+[开始阅读](#)
 
 
 
 <!-- 背景色 -->
-<!--![color](#fff)-->
-
+![color](#fff)
 
 

@@ -458,6 +458,7 @@
   <!-- 回到顶部功能 -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+
   <script type="text/javascript">
     $(document).ready(function () {
       $.goup({
@@ -467,8 +468,16 @@
         //title: 'TOP',
         titleAsText: true
       });
+
+      var nav = document.getElementsByClassName('app-nav no-badge');
+      if(typeof nav[0] != 'undefined')
+      {
+        nav[0].style.visiblity = 'hidden';
+        nav[0].style.display = 'none';
+      }
     });
   </script>
+
 
   <!-- 代码块样式优化-->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-c.js"></script>
@@ -554,7 +563,7 @@
       siteTime();
   </script> -->
 
-<!-- <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
 <script>
   L2Dwidget.init({
     "model": {
@@ -579,7 +588,7 @@
       "opacityOnHover": 0.2
     }
   });
-</script> -->
+</script>
 
 <!-- 访问量统计 -->
 <!-- <script async src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/js/busuanzi.pure.mini.js"></script> -->
@@ -593,17 +602,5 @@
       navigator.serviceWorker.register('pwa.js')
     }
   </script>
-
-  <script>
-    document.onreadystatechange = function(){
-      var nav = document.getElementsByClassName('app-nav no-badge');
-      if(typeof  nav[0] != 'undefined')
-      {
-        nav[0].style.visiblity = 'hidden';
-        nav[0].style.display = 'none';
-      }
-    }
-  </script>
-
 </body>
 </html>
