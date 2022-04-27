@@ -1,7 +1,7 @@
 <!-- _coverpage.md -->
 
 ![image-20211016011222107](../images/web3.png)
-# FreeMint中文社群
+# FreeMint中文社群 FreeMintDao | AdogeCoin | NFT
 
 > 💪聚焦撸毛、撸白、空投，TO THE MOON。
 
