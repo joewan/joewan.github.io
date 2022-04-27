@@ -1,6 +1,6 @@
-![icon](https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/images/icon.png)
+![web3](./images/web3.png)
 
-## AI & CS & SE
+## AI & CS & SE 🌹111
 
 - 做一个眼中有梁木的人，记录一路走来学习的计算机专业知识 ，力求完美构建 AI & CS & SE 知识体系
 
@@ -28,7 +28,7 @@
 
 
 <!-- 背景色 -->
-![color](#fff)
+<!--![color](#fff)-->
 
 
 
