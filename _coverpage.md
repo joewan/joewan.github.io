@@ -25,8 +25,8 @@
 
 <br>
 
-[OpenSea](https://opensea.io)
-[开始阅读](#)
+[OpenSea](https://opensea.io/0xadoge)
+[开始阅读](/README.md)
 
 
 
