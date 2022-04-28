@@ -26,6 +26,7 @@
 <br>
 
 [OpenSea](https://opensea.io/0xadoge)
+[交易记录](https://etherscan.io/address/tianyuan.eth)
 [开始阅读](/README.md)
 
 
