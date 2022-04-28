@@ -25,8 +25,9 @@
 
 <br>
 
-[OpenSea](https://opensea.io/0xadoge)
+[我的藏品](https://tianyuan.eth.xyz)
 [交易记录](https://etherscan.io/address/tianyuan.eth)
+[OpenSea](https://opensea.io/0xadoge)
 [开始阅读](/README.md)
 
 
